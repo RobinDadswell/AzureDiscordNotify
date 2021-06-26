@@ -136,7 +136,7 @@ $screenshotExists = Test-Path $screenshot
 if ($screenshotExists)
 {
     $embedsSetup['image'] = @{
-        url = "attachment://$screenshot"
+        url = "attachment://system_page_test_screenshot.png"
     }
 }
 
